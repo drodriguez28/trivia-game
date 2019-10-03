@@ -6,3 +6,19 @@ body {
       text-align: center
       
     }
+    .buttonMath {
+        background-color: blue;
+      }
+      
+      .buttonUS {
+        background-color: red;
+      }
+      .buttonSports {
+        background-color: orange;
+      }
+      .buttonAnime {
+          background-color: pink;
+      }
+      .buttonFlags {
+        background-color: green;
+      }

@@ -1,24 +1,49 @@
 body {
     background: lightgray;
+    max-width: 1000px;
+    margin: 0 auto;   
+    width: 100vw;
+    
     }
     header{
       font-size: 30px;
       text-align: center
       
     }
+    .buttonMath, .buttonUS, .buttonSports, .buttonAnime, .buttonFlags{
+      font-size: 25px;
+      padding: 10px 25px;
+    }
     .buttonMath {
         background-color: blue;
+        
       }
       
       .buttonUS {
         background-color: red;
+        
       }
-      .buttonSports {
+    .buttonSports {
         background-color: orange;
+      
       }
-      .buttonAnime {
-          background-color: pink;
-      }
-      .buttonFlags {
-        background-color: green;
-      }
+    .buttonAnime {
+      background-color: pink;
+     
+    }
+    
+    .buttonFlags {
+      background-color: green;
+      
+      
+    }
+    
+    
+    .enlaringButtons {
+      display: flex;
+      justify-content: space-between;
+    }
+    
+    
+    
+    

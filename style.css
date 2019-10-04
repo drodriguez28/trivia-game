@@ -10,7 +10,7 @@ body {
       text-align: center
       
     }
-    .buttonMath, .buttonUS, .buttonSports, .buttonAnime, .buttonFlags{
+    .buttonMath, .buttonUS, .buttonSports, .buttonAnime, .buttonMusic{
       font-size: 25px;
       padding: 10px 25px;
     }
@@ -32,7 +32,7 @@ body {
      
     }
     
-    .buttonFlags {
+    .buttonMusic {
       background-color: green;
       
       

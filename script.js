@@ -14,5 +14,5 @@ button3.addEventListener('click', () => {
 })
 const button4 = document.querySelector('.buttonAnime')
 button4.addEventListener('click', () => {
-    
+    console.log('nomaches')
 })

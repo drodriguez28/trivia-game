@@ -10,11 +10,11 @@ body {
       text-align: center
       
     }
-    #buttonMath, .buttonUS, .buttonSports, .buttonAnime, .buttonMusic{
+    .buttonMath, .buttonUS, .buttonSports, .buttonAnime, .buttonMusic{
       font-size: 25px;
       padding: 10px 25px;
     }
-    #buttonMath {
+    .buttonMath {
         background-color: blue;
         
       }

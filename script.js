@@ -1,4 +1,4 @@
-const button1 = document.getElementById('buttonMath')
+const button1 = document.getElementById('buttonMathID')
 button1.addEventListener('click', () => {
     console.log('blah')
 
@@ -12,9 +12,16 @@ button1.addEventListener('click', () => {
 
 })
 
-const button2 = document.querySelector('.buttonUS')
+const button2 = document.getElementById('buttonUSID')
 button2.addEventListener('click', () => {
     console.log('que onda wei')
+    var x = document.getElementById("usID");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+
 })
 
 const button3 = document.querySelector('.buttonSports')

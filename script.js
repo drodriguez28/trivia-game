@@ -27,6 +27,15 @@ button2.addEventListener('click', () => {
 const button3 = document.querySelector('.buttonSports')
 button3.addEventListener('click', () => {
     console.log('aye wei')
+    var x = document.getElementById("sportsID");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+
+
+
 })
 const button4 = document.querySelector('.buttonAnime')
 button4.addEventListener('click', () => {

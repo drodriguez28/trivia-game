@@ -1,11 +1,19 @@
-const button1 = document.querySelector('.buttonMath')
+const button1 = document.getElementById('buttonMath')
 button1.addEventListener('click', () => {
     console.log('blah')
-    
+
+    var x = document.getElementById("mathID");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+
+
 })
 
 const button2 = document.querySelector('.buttonUS')
-button2.addEventListener('click', () =>{
+button2.addEventListener('click', () => {
     console.log('que onda wei')
 })
 

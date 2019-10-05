@@ -1,0 +1,19 @@
+{
+  "name": "trivia-game",
+  "version": "1.0.0",
+  "description": "my trivia game is gud ",
+  "main": "index.html",
+  "scripts": {
+    "start": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.generalassemb.ly/drodriguez28/project-1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lite-server": "^2.5.4"
+  }
+}

@@ -37,13 +37,44 @@ body {
       
       
     }
-    
-    
+
+    .math-wrapper, .ushistory-wrapper, .sports-wrapper, .anime-wrapper, .music-wrapper {
+      display: none;
+    }
+
+    .math-wrapper, .ushistory-wrapper, .sports-wrapper, .anime-wrapper, .music-wrapper{
+      border-style: solid;
+      display: flex;
+      flex-direction: column;
+      display: none;
+    }
+    .math-question, .ushistory-question, .sports-question, .anime-question, .music-question {
+      border-style: solid;
+      
+
+    }
+    .math-answer, .ushistory-answer, .sports-answer, .anime-answer, .music-answer{
+      border-style: solid;
+
+    }
+    .answerPanel{
+      display: flex;
+      font-size: 25px;
+      padding: 10px 25px;
+      justify-content: space-between;
+     
+
+    }
+        
     .enlaringButtons {
       display: flex;
       justify-content: space-between;
     }
     
+    .mathSuccess, .usSuccess, .sportsSuccess, .animeSuccess, .musicSuccess {
+      background-color: yellow;
+      padding: 10px
+    }
     
     
     

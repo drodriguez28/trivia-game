@@ -23,17 +23,22 @@
 
         <button id= "buttonSportsID" class="buttonSports">Sports</button>
 
-        <button class="buttonAnime">Anime</button>
+        <button id="buttonAnimeID" class="buttonAnime">Anime</button>
 
-        <button class="buttonMusic">Music</button>
+        <button id="buttonMusicID" class="buttonMusic">Music</button>
     </div>
 
     <div class="math-wrapper" id="mathID">
         <div class="math-question">
-            <h3> Math question </h3>
+            <h3> Is 42 the best number ever? </h3>
         </div>
         <div class="math-answer">
-            math answer
+            
+            <button id="math-submit-1" class="mathAnswerButton" value="yes">Yes</button>
+            <button id="math-submit-2" class="mathAnswerButton" value="no">No</button>
+            <button id="math-submit-3" class="mathAnswerButton" value="idk">I don't know</button>
+
+
         </div>
     </div>
 
@@ -54,15 +59,15 @@
             Sports answer
         </div>
     </div>
-    <div class="anime-wrapper">
+    <div class="anime-wrapper" id="animeID">
         <div class="anime-question">
             <h3> Anime question </h3>
         </div>
-        <div class="Anime-answer">
+        <div class="anime-answer">
             Anime answer
         </div>
     </div>
-    <div class="music-wrapper">
+    <div class="music-wrapper" id="musicID">
         <div class="music-question">
             <h3> Music question </h3>
         </div>
@@ -71,6 +76,15 @@
         </div>
     </div>
 
+
+    <div class="answerPanel">
+      <div class="mathSuccess" id="mathSuccessID" >Math</div>
+      <div class="usSuccess" id="usSuccessID" >US History</div>
+      <div class="sportsSuccess" id="sportsSuccessID" >Sports</div>
+      <div class="animeSuccess" id="animeSuccessID" >Anime</div>
+      <div class="musicSuccess" id="musicSuccessID" >Music</div>
+      
+    </div>
 
 
 

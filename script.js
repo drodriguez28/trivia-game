@@ -91,3 +91,45 @@ function MathCheckAnswerHandler(event)
     }
 
 }
+
+
+// THIS SECTION IS JUST FOR THE US PART
+
+document.getElementById('ushistory-submit-1').addEventListener('click', USCheckAnswerHandler);
+document.getElementById('ushistory-submit-2').addEventListener('click', USCheckAnswerHandler);
+document.getElementById('ushistory-submit-3').addEventListener('click', USCheckAnswerHandler);
+
+function USCheckAnswerHandler(event)
+{
+    console.log(event.target.value);
+
+    if (event.target.value === "yes") {
+        document.getElementById('usSuccessID').style.backgroundColor = "lime";
+        updateGameStatus("us", true)
+    } else {
+        document.getElementById('usSuccessID').style.backgroundColor = "red";
+        updateGameStatus("us", false)
+
+    }
+
+}
+
+// THIS SECTION IS JUST FOR THE SPORTS PART
+document.getElementById('sports-submit-1').addEventListener('click', USCheckAnswerHandler);
+document.getElementById('ushistory-submit-2').addEventListener('click', USCheckAnswerHandler);
+document.getElementById('ushistory-submit-3').addEventListener('click', USCheckAnswerHandler);
+
+function USCheckAnswerHandler(event)
+{
+    console.log(event.target.value);
+
+    if (event.target.value === "yes") {
+        document.getElementById('usSuccessID').style.backgroundColor = "lime";
+        updateGameStatus("us", true)
+    } else {
+        document.getElementById('usSuccessID').style.backgroundColor = "red";
+        updateGameStatus("us", false)
+
+    }
+
+}

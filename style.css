@@ -15,7 +15,7 @@ body {
       padding: 10px 25px;
     }
     .buttonMath {
-        background-color: blue;
+        background-color: skyblue;
         
       }
       
@@ -33,7 +33,7 @@ body {
     }
     
     .buttonMusic {
-      background-color: limegreen;
+      background-color: yellow;
       
       
     }
@@ -86,8 +86,11 @@ body {
       display: none;
       
     }
-
-    
+    .won{
+      font-size: 60px;
+      justify-content: center;
+      display: flex;
+    }
 
 
     

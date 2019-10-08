@@ -76,5 +76,18 @@ body {
       padding: 10px
     }
     
+    .results {
+      display: flex;
+      justify-content: space-around;
+      font-size: 60px;
+    }
+
+    .results p {
+      display: none;
+    }
+
+    
+
+
     
     

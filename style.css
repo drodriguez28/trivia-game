@@ -33,7 +33,7 @@ body {
     }
     
     .buttonMusic {
-      background-color: yellow;
+      background-color: limegreen;
       
       
     }
@@ -72,7 +72,7 @@ body {
     }
     
     .mathSuccess, .usSuccess, .sportsSuccess, .animeSuccess, .musicSuccess {
-      background-color: yellow;
+      background-color: lightgrey;
       padding: 10px
     }
     
@@ -84,6 +84,7 @@ body {
 
     .results p {
       display: none;
+      
     }
 
     

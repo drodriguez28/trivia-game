@@ -131,7 +131,7 @@ function MathCheckAnswerHandler(event) {
         setTimeout (() => {
             location.reload()
             incorrect.style.display = "none";
-        }, 1000)
+        }, 3000)
         
 
 
@@ -173,7 +173,7 @@ function USCheckAnswerHandler(event) {
         setTimeout (() => {
             location.reload()
             incorrect.style.display = "none";
-        }, 1000)
+        }, 3000)
 
 
     }
@@ -208,7 +208,7 @@ function SportsCheckAnswerHandler(event) {
         setTimeout (() => {
             location.reload()
             incorrect.style.display = "none";
-        }, 1000)
+        }, 3000)
 
     }
 
@@ -243,7 +243,7 @@ function AnimeCheckAnswerHandler(event) {
         setTimeout (() => {
             location.reload()
             incorrect.style.display = "none";
-        }, 1000)
+        }, 3000)
 
     }
 
@@ -278,7 +278,7 @@ function MusicCheckAnswerHandler(event) {
         setTimeout (() => {
             location.reload()
             incorrect.style.display = "none";
-        }, 1000)
+        }, 3000)
 
     }
 

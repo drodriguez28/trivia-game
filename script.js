@@ -4,8 +4,8 @@ var sportsSuccess = false;
 var animeSuccess = false;
 var musicSuccess = false;
 
- 
- 
+
+
 
 function updateGameStatus(question, answer) {
     if (mathSuccess && usSuccess && sportsSuccess && animeSuccess && musicSuccess) {
@@ -28,7 +28,7 @@ function updateGameStatus(question, answer) {
         animeSuccess = answer;
         console.log("Anime Success:" + animeSuccess)
     }
-    if (question === "music"){
+    if (question === "music") {
         musicSuccess = answer;
         console.log("Music Success:" + musicSuccess)
 
@@ -47,7 +47,7 @@ button1.addEventListener('click', () => {
     document.getElementById("sportsID").style.display = "none";
     document.getElementById("animeID").style.display = "none";
     document.getElementById("musicID").style.display = "none";
-    
+
 })
 
 const button2 = document.getElementById('buttonUSID')
@@ -91,7 +91,7 @@ button5.addEventListener('click', () => {
     document.getElementById("animeID").style.display = "none";
     document.getElementById("musicID").style.display = "flex";
 })
-let right= 0
+let right = 0
 
 
 
@@ -114,25 +114,25 @@ function MathCheckAnswerHandler(event) {
         document.getElementById('mathSuccessID').style.backgroundColor = "lime";
         correct.style.display = "flex";
         updateGameStatus("math", true)
-        setTimeout (() => {
+        setTimeout(() => {
             correct.style.display = "none";
         }, 1000)
         document.getElementById("mathID").style.display = "none";
-        if ( right >= 5) {
-            document.getElementById('wonGame').innerHTML= " Congrats you've won !"
+        if (right >= 5) {
+            document.getElementById('wonGame').innerHTML = " Congrats you've won !"
         }
 
 
-        
+
     } else {
         document.getElementById('mathSuccessID').style.backgroundColor = "red";
         incorrect.style.display = "flex"
         updateGameStatus("math", false)
-        setTimeout (() => {
+        setTimeout(() => {
             location.reload()
             incorrect.style.display = "none";
         }, 3000)
-        
+
 
 
     }
@@ -157,12 +157,12 @@ function USCheckAnswerHandler(event) {
         document.getElementById('usSuccessID').style.backgroundColor = "lime";
         correct.style.display = "flex";
         updateGameStatus("us", true)
-        setTimeout (() => {
+        setTimeout(() => {
             correct.style.display = "none";
         }, 1000)
         document.getElementById("usID").style.display = "none";
-        if ( right >= 5) {
-            document.getElementById('wonGame').innerHTML= " Congrats you've won !"
+        if (right >= 5) {
+            document.getElementById('wonGame').innerHTML = " Congrats you've won !"
         }
 
 
@@ -170,7 +170,7 @@ function USCheckAnswerHandler(event) {
         document.getElementById('usSuccessID').style.backgroundColor = "red";
         incorrect.style.display = "flex"
         updateGameStatus("us", false)
-        setTimeout (() => {
+        setTimeout(() => {
             location.reload()
             incorrect.style.display = "none";
         }, 3000)
@@ -193,19 +193,19 @@ function SportsCheckAnswerHandler(event) {
         document.getElementById('sportsSuccessID').style.backgroundColor = "lime";
         correct.style.display = "flex";
         updateGameStatus("sports", true)
-        setTimeout (() => {
+        setTimeout(() => {
             correct.style.display = "none";
         }, 1000)
         document.getElementById("sportsID").style.display = "none";
-        if ( right >= 5) {
-            document.getElementById('wonGame').innerHTML= " Congrats you've won !"
+        if (right >= 5) {
+            document.getElementById('wonGame').innerHTML = " Congrats you've won !"
         }
 
     } else {
         document.getElementById('sportsSuccessID').style.backgroundColor = "red";
         incorrect.style.display = "flex"
         updateGameStatus("sports", false)
-        setTimeout (() => {
+        setTimeout(() => {
             location.reload()
             incorrect.style.display = "none";
         }, 3000)
@@ -228,19 +228,19 @@ function AnimeCheckAnswerHandler(event) {
         document.getElementById('animeSuccessID').style.backgroundColor = "lime";
         correct.style.display = "flex";
         updateGameStatus("anime", true)
-        setTimeout (() => {
+        setTimeout(() => {
             correct.style.display = "none";
         }, 1000)
         document.getElementById("animeID").style.display = "none";
-        if ( right >= 5) {
-            document.getElementById('wonGame').innerHTML= " Congrats you've won !"
+        if (right >= 5) {
+            document.getElementById('wonGame').innerHTML = " Congrats you've won !"
         }
 
     } else {
         document.getElementById('animeSuccessID').style.backgroundColor = "red";
         incorrect.style.display = "flex"
         updateGameStatus("anime", false)
-        setTimeout (() => {
+        setTimeout(() => {
             location.reload()
             incorrect.style.display = "none";
         }, 3000)
@@ -262,12 +262,12 @@ function MusicCheckAnswerHandler(event) {
         document.getElementById('musicSuccessID').style.backgroundColor = "lime";
         correct.style.display = "flex";
         updateGameStatus("music", true)
-        setTimeout (() => {
+        setTimeout(() => {
             correct.style.display = "none";
         }, 1000)
         document.getElementById("musicID").style.display = "none";
-        if ( right >= 5) {
-            document.getElementById('wonGame').innerHTML= " Congrats you've won !"
+        if (right >= 5) {
+            document.getElementById('wonGame').innerHTML = " Congrats you've won !"
         }
 
 
@@ -275,7 +275,7 @@ function MusicCheckAnswerHandler(event) {
         document.getElementById('musicSuccessID').style.backgroundColor = "red";
         incorrect.style.display = "flex"
         updateGameStatus("music", false)
-        setTimeout (() => {
+        setTimeout(() => {
             location.reload()
             incorrect.style.display = "none";
         }, 3000)

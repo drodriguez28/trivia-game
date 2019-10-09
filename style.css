@@ -1,98 +1,88 @@
 body {
-    background: gold;
-    max-width: 1000px;
-    margin: 0 auto;   
-    width: 100vw;
-    
-    }
-    header{
-      font-size: 30px;
-      text-align: center
-      
-      
-    }
-    .buttonMath, .buttonUS, .buttonSports, .buttonAnime, .buttonMusic{
-      font-size: 25px;
-      padding: 10px 25px;
-    }
-    .buttonMath {
-        background-color: skyblue;
-        
-      }
-      
-      .buttonUS {
-        background-color: red;
-        
-      }
-    .buttonSports {
-        background-color: orange;
-      
-      }
-    .buttonAnime {
-      background-color: pink;
-     
-    }
-    
-    .buttonMusic {
-      background-color: yellow;
-      
-      
-    }
+  background: gold;
+  max-width: 1000px;
+  margin: 0 auto;
+  width: 100vw;
+}
 
-    .math-wrapper, .ushistory-wrapper, .sports-wrapper, .anime-wrapper, .music-wrapper {
-      display: none;
-    }
+header {
+  font-size: 30px;
+  text-align: center
+}
 
-    .math-wrapper, .ushistory-wrapper, .sports-wrapper, .anime-wrapper, .music-wrapper{
-      border-style: solid;
-      display: flex;
-      flex-direction: column;
-      display: none;
-    }
-    .math-question, .ushistory-question, .sports-question, .anime-question, .music-question {
-      border-style: solid;
-      
+.buttonMath, .buttonUS, .buttonSports, .buttonAnime, .buttonMusic {
+  font-size: 25px;
+  padding: 10px 25px;
+}
 
-    }
-    .math-answer, .ushistory-answer, .sports-answer, .anime-answer, .music-answer{
-      border-style: solid;
+.buttonMath {
+  background-color: skyblue;
+}
 
-    }
-    .answerPanel{
-      display: flex;
-      font-size: 25px;
-      padding: 10px 25px;
-      justify-content: space-between;
-     
+.buttonUS {
+  background-color: red;
+}
 
-    }
-        
-    .enlaringButtons {
-      display: flex;
-      justify-content: space-between;
-    }
-    
-    .mathSuccess, .usSuccess, .sportsSuccess, .animeSuccess, .musicSuccess {
-      background-color: lightgrey;
-      padding: 10px
-    }
-    
-    .results {
-      display: flex;
-      justify-content: space-around;
-      font-size: 60px;
-    }
+.buttonSports {
+  background-color: orange;
+}
 
-    .results p {
-      display: none;
-      
-    }
-    .won{
-      font-size: 60px;
-      justify-content: center;
-      display: flex;
-    }
+.buttonAnime {
+  background-color: pink;
+}
 
+.buttonMusic {
+  background-color: yellow;
+}
 
-    
-    
+.math-wrapper, .ushistory-wrapper, .sports-wrapper, .anime-wrapper, .music-wrapper {
+  display: none;
+}
+
+.math-wrapper, .ushistory-wrapper, .sports-wrapper, .anime-wrapper, .music-wrapper {
+  border-style: solid;
+  display: flex;
+  flex-direction: column;
+  display: none;
+}
+
+.math-question, .ushistory-question, .sports-question, .anime-question, .music-question {
+  border-style: solid;
+}
+
+.math-answer, .ushistory-answer, .sports-answer, .anime-answer, .music-answer {
+  border-style: solid;
+}
+
+.answerPanel {
+  display: flex;
+  font-size: 25px;
+  padding: 10px 25px;
+  justify-content: space-between;
+}
+
+.enlaringButtons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mathSuccess, .usSuccess, .sportsSuccess, .animeSuccess, .musicSuccess {
+  background-color: lightgrey;
+  padding: 10px
+}
+
+.results {
+  display: flex;
+  justify-content: space-around;
+  font-size: 60px;
+}
+
+.results p {
+  display: none;
+}
+
+.won {
+  font-size: 60px;
+  justify-content: center;
+  display: flex;
+}
